@@ -18,9 +18,12 @@ This tool:
 
 1. You will need to start off with creating a sample IP group inside of the Unifi controller (you can just put a random IP in there like 1.2.3.4)
 
-2. Then you will need to enable ssh and ssh into your Unifi device (In my case an EFG)
+<img width="998" height="195" alt="image" src="https://github.com/user-attachments/assets/68cc55bf-954e-4c9c-b73f-74f936995ce1" />
 
-3. Make a working dir inside /usr/local/sbin
+
+3. Then you will need to enable ssh and ssh into your Unifi device (In my case an EFG)
+
+4. Make a working dir inside /usr/local/sbin
 
 #sudo mkdir -p /usr/local/sbin/unifi-ipfeed
 #cd /usr/local/sbin/unifi-ipfeed

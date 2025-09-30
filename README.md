@@ -1,5 +1,20 @@
 # Unifi-Dynamic-Threat-Intel-Feed
-A script to automate the injection of external threat feeds into the Unifi platform. (Use at your own risk, may void warranties)
+
+> A script to automate the injection of external threat feeds into the UniFi platform.  
+> **⚠️ Use at your own risk — this modifies UniFi’s MongoDB directly and may void warranties. Test on non-production devices first.**
+
+---
+
+## Overview
+
+This tool:
+- downloads a remote IP feed (FireHOL Level1 by default),
+- parses & de-duplicates IP/CIDR entries,
+- compares to the current UniFi `firewallgroup`,
+- applies only the deltas (adds/removes) in safe batches,
+- caches feed & ETag locally so it downloads only when changed.
+
+---
 
 1. You will need to start off with creating a sample IP group inside of the Unifi controller (you can just put a random IP in there like 1.2.3.4)
 

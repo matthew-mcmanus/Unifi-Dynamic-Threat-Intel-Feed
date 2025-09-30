@@ -18,8 +18,7 @@ This tool:
 
 1. You will need to start off with creating a sample IP group inside of the Unifi controller (you can just put a random IP in there like 1.2.3.4)
 
-<img width="998" height="195" alt="image" src="https://github.com/user-attachments/assets/68cc55bf-954e-4c9c-b73f-74f936995ce1" />
-
+<img width="1208" height="230" alt="Screenshot 2025-09-30 at 10 36 01 AM" src="https://github.com/user-attachments/assets/5cc94233-1091-4b1a-8b98-b317f3a68f32" />
 
 3. Then you will need to enable ssh and ssh into your Unifi device (In my case an EFG)
 

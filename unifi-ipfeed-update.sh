@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo "===== Run started at $(date '+%Y-%m-%d %H:%M:%S') ====="
 set -euo pipefail
 
 # --- CONFIG (edit as needed) -----------------------------------------------

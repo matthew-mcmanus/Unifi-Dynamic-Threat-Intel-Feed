@@ -55,10 +55,10 @@ This tool:
 
 #nano /usr/local/sbin/unifi-ipfeed/unifi-ipfeed-update.sh
 
-10. Add the script as a cron job that runs every 2Hrs
+10. Add the script as a cron job that runs every 1Hr
 
 #sudo crontab -e
-#0 */2 * * * /usr/local/sbin/unifi-ipfeed/unifi-ipfeed-update.sh >> /usr/local/sbin/unifi-ipfeed/unifi-ipfeed.log 2>&1
+#0 * * * * /usr/local/sbin/unifi-ipfeed/unifi-ipfeed-update.sh >> /usr/local/sbin/unifi-ipfeed/unifi-ipfeed.log 2>&1
 
 11. Execute for the first time (Might take a min to run, check the UI after to see if that IP group got updated):
 

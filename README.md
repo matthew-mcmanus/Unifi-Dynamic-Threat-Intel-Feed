@@ -44,7 +44,7 @@ This tool:
 
 7. Log into the MongoDB to find the ID of the IP group we made earlier
 
-mongosh/bin/mongosh "mongodb://127.0.0.1:27117/ace"
+#mongosh/bin/mongosh "mongodb://127.0.0.1:27117/ace"
 
 8. Run the following and find the ObjectID of the list (Should be the one that contains the example IP of 1.2.3.4):
 
@@ -62,7 +62,8 @@ mongosh/bin/mongosh "mongodb://127.0.0.1:27117/ace"
 
 11. Execute for the first time (Might take a min to run, check the UI after to see if that IP group got updated):
 
-./unifi-ipfeed-update.sh
+#sudo chmod +x /usr/local/sbin/unifi-ipfeed/unifi-ipfeed-update.sh
+#./unifi-ipfeed-update.sh
 
 12. Make firewall rules in the UI now based on these dynamic threat feeds!
 
